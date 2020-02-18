@@ -1,0 +1,62 @@
+body {
+    background: lightblue
+}
+
+@keyframes cloud {
+    0% { left: 10%; top: 15%; }
+    50% { left: 75%; top: 20%; }
+    100% { left: 10%; top: 15%; }
+}
+
+.cloud {
+    position: relative; 
+    width: 20rem; 
+    height: 10rem;
+    background-color: white;
+    border-radius: 50%;   
+    transition: all .50s ease-in-out; 
+    animation-name: cloud;
+    animation-iteration-count: infinite, infinite; 
+}
+
+.cloud:hover {
+    transform: scale(1.2); 
+    cursor: pointer;
+    animation-play-state: paused, running; 
+}
+
+body .cloud:nth-child(1) {
+    animation-name: cloud;
+    animation-duration: 10s, 30s; 
+    animation-delay: 0s, 5s; 
+}
+
+body .cloud:nth-child(2) {
+    animation-name: cloud;
+    animation-duration: 20s, 2s; 
+    animation-delay: 0s, 10s; 
+}
+
+body .cloud:nth-child(3) {
+    animation-name: cloud;
+    animation-duration: 40s, 20s; 
+    animation-delay: 0s, 15s; 
+}
+
+body .cloud:nth-child(4) {
+    animation-name: cloud;
+    animation-duration: 10s, 5s; 
+    animation-delay: 0s, 20s; 
+}
+
+body .cloud:nth-child(5) {
+    animation-name: cloud;
+    animation-duration: 20s, 10s; 
+    animation-delay: 0s, 25s; 
+}
+
+body .cloud:nth-child(6) {
+    animation-name: cloud;
+    animation-duration: 30s, 20s; 
+    animation-delay: 0s, 10s; 
+}
