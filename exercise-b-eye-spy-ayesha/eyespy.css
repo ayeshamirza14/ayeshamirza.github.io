@@ -1,0 +1,67 @@
+#site {
+    display: grid;
+}
+
+.container {
+    display: flex;
+}
+
+.box1, .box2, .box3, .box4 {
+    background-size: cover;
+}
+
+.box1:nth-child(1):hover {
+    background-image: url("red1.jpg") !important;
+}
+
+.box1:nth-child(2):hover {
+    background-image: url("red2.jpg") !important;
+}
+
+.box1:nth-child(3):hover {
+    background-image: url("red3.jpg") !important;
+}
+
+.box1:nth-child(4):hover {
+    background-image: url("red4.jpg") !important;
+}
+
+.box1:nth-child(5):hover {
+    background-image: url("red5.jpg") !important;
+}
+
+.box1:nth-child(6):hover {
+    background-image: url("red6.jpg") !important;
+}
+
+.box1:nth-child(7):hover {
+    background-image: url("red7.jpg") !important;
+}
+
+.box2:nth-child(8):hover {
+    background-image: url("red8.jpg") !important;
+}
+
+.box2:nth-child(9):hover {
+    background-image: url("red9.jpg") !important;
+}
+
+.box2:nth-child(10):hover {
+    background-image: url("red10.jpg") !important;
+}
+
+.box2:nth-child(11):hover {
+    background-image: url("red11.jpg") !important;
+}
+
+.box2:nth-child(12):hover {
+    background-image: url("red12.jpg") !important;
+}
+
+.box2:nth-child(13):hover {
+    background-image: url("red13.PNG") !important;
+}
+
+.box2:nth-child(14):hover {
+    background-image: url("red14.jpg") !important;
+}
