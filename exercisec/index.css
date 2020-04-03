@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Maison Neue";
+  src: url(MaisonNeue-Book.otf) format("otf");
+}
+
+html {
+  font-size: 80%;
+  font-family: 'Maison Neue';
+}
+
+.input-wrapper {
+  display: flex;
+  margin: 1.5rem 0 3rem 0;
+}
+
+input {
+  width: 100%;
+}
+
+.sentence {
+  height: 7rem;
+}
